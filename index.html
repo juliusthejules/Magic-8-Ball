@@ -22,7 +22,7 @@
         margin-bottom: 20px;
     }
     input[type="text"] {
-        width: 100%;
+        width: 70%;
         padding: 10px;
         margin-bottom: 10px;
         border: 1px solid #ccc;
@@ -40,6 +40,18 @@
     button:hover {
         background-color: #0056b3;
     }
+    #clearBtn {
+        padding: 10px;
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    #clearBtn:hover {
+        background-color: #c82333;
+    }
     #answer {
         margin-top: 20px;
         font-size: 18px;
@@ -52,6 +64,7 @@
     <h1>Magic-8-Ball</h1>
     <input type="text" id="question" placeholder="Type your question...">
     <button onclick="askQuestion()">Ask</button>
+    <button id="clearBtn" onclick="clearInput()">Clear</button>
     <div id="answer"></div>
 </div>
 
@@ -83,9 +96,13 @@
         var answer = answers[Math.floor(Math.random() * answers.length)];
         document.getElementById("answer").innerHTML = "<p><strong>The Magic 8-ball says:</strong> " + answer + "</p>";
     }
+
+    function clearInput() {
+        document.getElementById("question").value = "";
+    }
 </script>
 
-    <h2 align="center">Tip Jar</h2>
+<h2 align="center">Tip Jar</h2>
 
     <div align="center">
     <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -94,6 +111,6 @@
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
     </form>
     </div>
-    
+
 </body>
 </html>
