@@ -1,6 +1,6 @@
 var GHPATH = '/Magic-8-Ball';
 var APP_PREFIX = 'Magic';
-var VERSION = 'version_001';
+var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
