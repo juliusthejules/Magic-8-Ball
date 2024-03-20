@@ -15,3 +15,6 @@ For any inquiries or feedback, feel free to contact the developer:
 
 - **Email:** joseph.jds.smith@gmail.com
 - **Phone:** 1(270)404-5487
+
+## Note
+The main branch is locked and is Read Only.
