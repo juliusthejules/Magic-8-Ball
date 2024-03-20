@@ -14,7 +14,7 @@ This Magic-8-Ball is for entertainment purposes only. By using this website, you
 For any inquiries or feedback, feel free to contact the developer:
 
 - **Email:** joseph.jds.smith@gmail.com
-- **Phone:** 1(270)404-5487
+- **Phone:** +12704045487
 
 ## Note
 The main branch is locked and is Read Only.
