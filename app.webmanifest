@@ -1,0 +1,37 @@
+{
+    "theme_color": "#dcd9d6",
+    "background_color": "#d4d2d1",
+    "display": "standalone",
+    "scope": "/Magic-8-Ball/",
+    "start_url": "/Magic-8-Ball/",
+    "name": "Magic-8-Ball",
+    "short_name": "Magic-8-Ball",
+    "description": "An online Magic-8-Ball that answers your typed questions.",
+    "icons": [
+        {
+            "src": "/Magic-8-Ball/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/Magic-8-Ball/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/Magic-8-Ball/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/Magic-8-Ball/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/Magic-8-Ball/favicon.ico",
+            "sizes": "32x32",
+            "type": "image/x-icon"
+        }
+    ]
+}
