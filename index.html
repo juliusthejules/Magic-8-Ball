@@ -57,6 +57,29 @@
         font-size: 18px;
     }
 </style>
+
+    <!--PWA Begin-->
+    <meta name="application-name" content="Magic-8-Ball"/>
+<meta name="theme-color" content="#dcd9d6"/>
+    <link rel="canonical" href="https://juliusthejules.github.io/Magic-8-Ball/"/>
+    <link rel="manifest" href="/Magic-8-Ball/app.webmanifest"/>
+    <link rel="icon" href="/Magic-8-Ball/favicon.ico" type="image/x-icon" sizes="32x32"/>
+    <link rel="icon" href="/Magic-8-Ball/icon-192x192.png" type="image/png" sizes="192x192"/>
+    <link rel="icon" href="/Magic-8-Ball/icon-256x256.png" type="image/png" sizes="256x256"/>
+    <link rel="icon" href="/Magic-8-Ball/icon-384x384.png" type="image/png" sizes="384x384"/>
+    <link rel="icon" href="/Magic-8-Ball/icon-512x512.png" type="image/png" sizes="512x512"/>
+    
+   <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/Magic-8-Ball/sw.js',
+          {scope: '/Magic-8-Ball/'}
+        )
+      }
+  </script>
+
+    <script src="/app.js"></script>
+    <!--PWA End-->
 </head>
 <body>
 
